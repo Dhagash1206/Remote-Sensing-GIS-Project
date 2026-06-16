@@ -12,9 +12,6 @@ dist/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Project outputs (auto-generated maps, charts, CSV)
-outputs/
-
 # Environment and secrets
 .env
 .env.*

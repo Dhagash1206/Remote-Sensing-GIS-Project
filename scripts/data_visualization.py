@@ -1,6 +1,6 @@
 
 """
-Day 7 - Data Visualization and Analysis in Python
+Data Visualization and Analysis in Python
 Summer Training Programme - Remote Sensing & GIS
 
 - Loading and plotting geospatial vector data
