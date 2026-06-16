@@ -37,11 +37,7 @@ This project runs **two scripts**, not one map.
 
 ---
 
-## Does It Just Make an India Map?
-
-**No.** The India district map is only the **starting point**.
-
-The project also does:
+## Features
 
 - Charts and CSV export
 - CRS reprojection
@@ -54,12 +50,10 @@ The project also does:
 
 ## Where Does It Help?
 
-| Area | Use |
-|------|-----|
-| Education / training | Hands-on GIS with Python |
-| Resume / portfolio | Shows GeoPandas, spatial queries, and overlays |
-| Real-world GIS tasks | Boundary analysis, neighbor detection, buffer zones |
-| Planning / research | Base for zoning, border studies, regional analysis |
+
+- Hands-on GIS with Python 
+- Boundary analysis, neighbor detection, buffer zones
+- Base for zoning, border studies, regional analysis
 
 **Example questions this project answers:**
 
@@ -131,12 +125,6 @@ python scripts/data_visualization.py
 python scripts/advanced_spatial_analysis.py
 ```
 
-### 3. One-liner (Windows, no activation needed)
-
-```powershell
-cd "c:\Users\dhagash\Desktop\GeoSpatial_Project_test"; if (-not (Test-Path ".venv\Scripts\python.exe")) { python -m venv .venv; .\.venv\Scripts\pip install -r requirements.txt }; .\.venv\Scripts\python scripts\data_visualization.py; .\.venv\Scripts\python scripts\advanced_spatial_analysis.py; explorer outputs
-```
-
 All outputs (PNG maps, CSV) are saved to the `outputs/` folder automatically.
 
 ---
@@ -159,14 +147,6 @@ All outputs (PNG maps, CSV) are saved to the `outputs/` folder automatically.
 
 ---
 
-## Current Limitations
-
-- Time-series values are **sample/hardcoded**, not from real satellite raster data
-- Choropleth map needs a `mean_value` column that the shapefile does not include
-- This is a **training/demo project**, not a full production GIS system
-
----
-
 ## Notes
 
 - `unary_union` is deprecated — replaced with `union_all()` in the spatial analysis script
@@ -175,10 +155,3 @@ All outputs (PNG maps, CSV) are saved to the `outputs/` folder automatically.
 - `.venv/` and `outputs/` are gitignored
 
 ---
-
-## Summary
-
-**Basis:** Census district boundaries + Python GIS tools  
-**Does:** Map, analyze, query, and overlay spatial data  
-**Helps:** Learning GIS, portfolio work, and basic regional spatial analysis  
-**Not just:** A static India map — that is step one of a larger workflow
